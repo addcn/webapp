@@ -1,0 +1,12 @@
+<div>
+	<div class="op-area">
+		<input type="button" id="btn-sort-asc" value="asc" />
+		<input type="button" id="btn-sort-desc" value="desc" />
+		<input type="button" id="btn-shuffle" value="shuffle" />
+	</div>
+	<ul class="view-l">
+		<% _.each(data, function(v) { %>
+		<li class="v-i"><%= v %></li>
+		<% }); %>
+	</ul>
+</div>
